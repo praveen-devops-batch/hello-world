@@ -208,20 +208,7 @@
     </dependencies>
   </dependencyManagement>
          
- <distributionManagement>
-          <repository>
-                   <id>Jfrog</id>
-                   <name>Praveen JFrog Artfactories</name>
-                   <url>http://65.1.93.195:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-release-local</url>
-          </repository>
-          
-          <snapshotrepository>
-                   <id>Jfrog</id>
-                   <name>Praveen JFrog Artfactories</name>
-                   <url>http://65.1.93.195:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-snapshot-local</url>
-          </snapshotrepository>
-          
-         </distributionManagement>
+ 
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
